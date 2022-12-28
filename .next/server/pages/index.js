@@ -279,7 +279,8 @@ async function getStaticProps() {
   return {
     props: {
       meetups: meetups
-    }
+    },
+    revalidate: 1
   };
 }
 /* harmony default export */ var pages = __webpack_exports__["default"] = (HomePage);

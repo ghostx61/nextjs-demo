@@ -216,7 +216,7 @@ async function getStaticPaths() {
   }));
   console.log(paths);
   return {
-    fallback: false,
+    fallback: 'blocking',
     paths
   };
 }
